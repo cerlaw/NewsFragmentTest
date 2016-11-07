@@ -4,12 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--<ImageView-->
-        <!--android:layout_width="1dp"-->
-        <!--android:layout_height="match_parent"-->
-        <!--android:layout_alignParentLeft="true"-->
-        <!--android:scaleType="fitXY"-->
-        <!--/>-->
+    <ImageView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY"
+        />
 
     <LinearLayout
         android:id="@+id/visibility_layout"
@@ -28,11 +28,11 @@
             android:padding="10dp"
             android:textSize="20dp"/>
 
-        <!--<ImageView-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="1dp"-->
-            <!--android:scaleType="fitXY"-->
-            <!--android:src="@drawable/split_line"/>-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/split_line"/>
 
         <TextView
             android:id="@+id/news_content"
